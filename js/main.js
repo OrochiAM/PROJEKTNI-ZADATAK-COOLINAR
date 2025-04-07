@@ -102,11 +102,13 @@ setInterval(pcelaHandle, 200);
 
 const eggs = document.querySelectorAll('.egg');
 const arrow = document.querySelector('.arrow');
+const wojak = document.querySelector('.wojak');
 
 pcela[1].addEventListener('click', () => {
   eggs[0].className = 'egg red-circle';
   eggs[1].className = 'egg red-arrow';
   arrow.style.display = 'block';
+  wojak.style.display = 'block';
 });
 // REALIZACIJA SLIDER CAROUSEL-A
 

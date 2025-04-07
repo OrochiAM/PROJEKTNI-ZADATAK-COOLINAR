@@ -411,13 +411,21 @@ header .naslov-wrap .naslov h1 {
   display: none;
 }
 
+.wojak {
+  display: none;
+  position: absolute;
+  right: 70px;
+  bottom: -200px;
+  width: 180%;
+}
+
 .red-circle {
   z-index: 99999;
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  margin: -100px 0 0 -100px;
-  border: solid 20px red;
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  margin: -110px 0 0 -110px;
+  border: solid 10px red;
   filter: none;
   opacity: 1;
 }
@@ -426,7 +434,7 @@ header .naslov-wrap .naslov h1 {
   z-index: 99999;
   width: 200px;
   border-radius: 100px;
-  margin: -190px 0 0 70px;
+  margin: -200px 0 0 80px;
   height: 200px;
   filter: none;
   opacity: 1;
