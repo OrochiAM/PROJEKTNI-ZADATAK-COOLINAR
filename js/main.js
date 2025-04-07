@@ -86,6 +86,28 @@ hover
     duration: 2,
   });
 
+// PCELE
+
+const pcela = document.querySelectorAll('.pcela');
+let pcelaCounter = 1;
+
+const pcelaHandle = () => {
+  pcelaCounter++;
+  let num = (pcelaCounter % 2) + 1;
+  pcela[0].src = `images/pcela${num}.svg`;
+  pcela[1].src = `images/pcela${num}.svg`;
+};
+
+setInterval(pcelaHandle, 200);
+
+const eggs = document.querySelectorAll('.egg');
+const arrow = document.querySelector('.arrow');
+
+pcela[1].addEventListener('click', () => {
+  eggs[0].className = 'egg red-circle';
+  eggs[1].className = 'egg red-arrow';
+  arrow.style.display = 'block';
+});
 // REALIZACIJA SLIDER CAROUSEL-A
 
 let carousel_width = document.querySelector('.slider').offsetWidth;

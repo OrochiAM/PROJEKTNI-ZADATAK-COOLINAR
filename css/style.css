@@ -215,6 +215,22 @@ header .slika-wrap .slika-header .oblak2 {
   width: 22%;
   transform: scaleX(-1);
 }
+header .slika-wrap .slika-header .pcela {
+  position: absolute;
+  z-index: 7;
+}
+header .slika-wrap .slika-header .pcela1 {
+  right: calc(65px + 10%);
+  bottom: 10vw;
+  width: 3%;
+  transform: rotate(15deg);
+}
+header .slika-wrap .slika-header .pcela2 {
+  left: calc(20px + 10%);
+  bottom: 13vw;
+  width: 3%;
+  transform: translateX(-1);
+}
 header .slika-wrap .slika-header .cvet1 {
   position: absolute;
   left: 40px;
@@ -380,6 +396,38 @@ header .naslov-wrap .naslov h1 {
   border-radius: 50px;
   margin: -50px 0 0 -50px;
   background-color: #fff48d;
+}
+
+.egg-white {
+  z-index: 4;
+  width: 200px;
+  border-radius: 100px;
+  margin: -100px 0 0 -100px;
+  height: 200px;
+  background-color: #ffffff;
+}
+
+.arrow {
+  display: none;
+}
+
+.red-circle {
+  z-index: 10;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: -100px 0 0 -100px;
+  border: solid 20px red;
+  filter: none;
+}
+
+.red-arrow {
+  z-index: 10;
+  width: 200px;
+  border-radius: 100px;
+  margin: -190px 0 0 70px;
+  height: 200px;
+  filter: none;
 }
 
 .egg-white {
