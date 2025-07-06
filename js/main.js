@@ -8,9 +8,7 @@ function getRandom(min, max) {
 
 const lenis = new Lenis();
 
-lenis.on('scroll', (e) => {
-  console.log(e);
-});
+lenis.on('scroll', (e) => {});
 
 function raf(time) {
   lenis.raf(time);
@@ -109,6 +107,13 @@ pcela[1].addEventListener('click', () => {
   eggs[1].className = 'egg red-arrow';
   arrow.style.display = 'block';
   wojak.style.display = 'block';
+});
+
+pcela[0].addEventListener('click', () => {
+  eggs[0].className = 'egg yolk';
+  eggs[1].className = 'egg egg-white';
+  arrow.style.display = 'none';
+  wojak.style.display = 'none';
 });
 // REALIZACIJA SLIDER CAROUSEL-A
 
