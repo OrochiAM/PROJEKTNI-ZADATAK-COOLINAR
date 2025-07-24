@@ -800,6 +800,7 @@ header .naslov-wrap .naslov h1 {
   border-left: solid 1px;
   border-right: solid 1px;
   background-size: cover;
+  background-position: center;
 }
 .popup-container .popup .card .lista-sastojaka {
   width: 41%;
