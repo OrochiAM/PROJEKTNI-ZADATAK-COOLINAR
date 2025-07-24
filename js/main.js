@@ -115,6 +115,7 @@ pcela[0].addEventListener('click', () => {
   arrow.style.display = 'none';
   wojak.style.display = 'none';
 });
+
 // REALIZACIJA SLIDER CAROUSEL-A
 
 let carousel_width = document.querySelector('.slider').offsetWidth;
